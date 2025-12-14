@@ -2,9 +2,9 @@ import oracledb
 import streamlit as st
 
 # --- Oracle Connection Configuration ---
-DB_USER = "police_system"
-DB_PASSWORD = "Police123#"  # your password
-DB_DSN = "localhost:1521/XEPDB1"  # ✅ connect to correct PDB
+DB_USER = ""
+DB_PASSWORD = ""  # your password
+DB_DSN = ""  # ✅ connect to correct PDB
 
 
 # --- 1️⃣ Persistent Connection via Streamlit Session ---
